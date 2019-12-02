@@ -307,8 +307,8 @@ if namez=="u":
         zzz=""
         bbs=int(cvz31wl)
         lenfq11=lenfq10
-        qqwww3=add+1
-        lenfq12=0+(qqwww3*8)
+        qqwww3=add
+        lenfq12=0+(qqwww3*8)+8
         aqwes=sda[lenfq12:lenfq11]
         bitcutake=""
         for byte in aqwes:
