@@ -393,7 +393,7 @@ if namez=="c":
             wer=""
             numberschangenotexist = []
             numbers = []
-            if blockw==5 and lenf1<100000 or blockw==2000 and lenf1<100000 or blockw==0 and lenf1<100000:
+            if blockw==5 and lenf1<100000 and lenf1>40 or blockw==2000 and lenf1<100000 and lenf1>40 or blockw==0 and lenf1>40 and lenf1<100000:
                 blockw=5
                 blockw1=4
             if blockw==2000 and lenf1>=100000 or blockw==5 and lenf1>=100000 or blockw==0 and lenf1>=100000:
@@ -764,7 +764,7 @@ if namez=="c":
                         z=z+1
                 
                 aqqd1=len(zzaax1)
-                if blockw==6 and lenf1<100000 or blockw==2001 and lenf1<100000 or blockw==1 and lenf1<100000:
+                if blockw==6 and lenf1>40 and lenf1<100000 or blockw==2001 and lenf1>40 and lenf1<100000 or blockw==1 and lenf1>40 and lenf1<100000:
                     blockw=5
                     blockw1=4
                     wer="0"+wer
